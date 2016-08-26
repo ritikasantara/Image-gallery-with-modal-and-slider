@@ -1,0 +1,543 @@
+/*Design styles for my_website_index page*/
+
+/*site name design for main site*/
+
+#site_name{
+
+
+   font-family: 'Dancing Script', cursive;
+   font-size: 45px;
+   background: -webkit-linear-gradient(#a2245f, #ffc0cb);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+           background-clip: text;
+           text-fill-color: transparent;
+  
+
+}
+
+#site_name:hover{
+
+
+   background: -webkit-linear-gradient(#add8e6, #be2c2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+
+
+}
+
+
+
+
+/*navigation bar text style*/
+
+.nav{
+
+
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+	color: #f6f6f6;
+
+}
+
+/*Horizontal rule style*/
+
+ hr{
+
+
+	 width: 100%;
+	 height: 3px;
+	 background-color: #008080;
+	 margin-top: 0.4rem;
+
+ }
+
+
+ #mainsite_background_image{
+
+	  width: 100%;
+	  height: 600px;
+	  opacity: 0.6;
+
+
+ }
+
+/*The Artsy logo in the middle*/   
+
+#text_background{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -8rem;
+    bottom: 0;
+    margin: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: #fff;
+	opacity: 0.5;
+	
+}
+
+/*Text inside the logo*/
+
+
+p{
+
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	color: #800000;
+	position: relative;
+	top: 30px;
+	text-align: center;
+
+
+}
+
+/*social media contact icons*/
+
+
+#facebook{
+
+
+	position: absolute;
+	font-size: 45px;
+	text-align: center;
+	margin-left: 38%;
+	top: 70%;
+	color: #938989;
+	opacity: 0.7;
+
+
+}
+
+#facebook:hover{color: #fff;}
+
+
+#github{
+
+	position: absolute;
+	font-size: 45px;
+	text-align: center;
+	margin-left: 44%;
+	top: 70%;
+	color: #938989;
+	opacity: 0.7;
+
+
+}
+
+#github:hover{color: #fff;}
+
+
+
+#linkedin{
+
+	position: absolute;
+	font-size: 45px;
+	text-align: center;
+	margin-left: 50%;
+	top: 70%;
+	color: #938989;
+	opacity: 0.7;
+
+
+}
+
+#linkedin:hover{color: #fff;}
+
+
+#twitter{
+
+	position: absolute;
+	font-size: 45px;
+	text-align: center;
+	margin-left: 57%;
+	top: 70%;
+	color: #938989;
+	opacity: 0.7;
+
+
+}
+
+#twitter:hover{color: #fff;}
+
+
+/*Media queries for the main site*/
+
+
+@media only screen and (max-width: 1024px)
+{
+
+	#facebook{
+
+
+	margin-left: 36%;
+
+
+
+	}
+
+	#github{
+
+		
+		margin-left: 42%;
+		
+
+
+	}
+
+
+
+	#linkedin{
+
+
+		margin-left: 49%;
+		
+
+
+	}
+
+	#twitter{
+
+
+		margin-left: 56%;
+		
+
+
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 840px)
+{
+#facebook{
+
+
+	margin-left: 30%;
+
+
+
+	}
+
+	#github{
+
+		
+		margin-left: 40%;
+		
+
+
+	}
+
+
+
+	#linkedin{
+
+
+		margin-left: 50%;
+		
+
+
+	}
+
+	#twitter{
+
+
+		margin-left: 60%;
+		
+
+
+	}
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 640px)
+{
+
+	#facebook{
+
+
+	margin-left: 19%;
+
+
+
+	}
+
+	#github{
+
+		
+		margin-left: 33%;
+		
+
+
+	}
+
+
+
+	#linkedin{
+
+
+		margin-left: 49%;
+		
+
+
+	}
+
+	#twitter{
+
+
+		margin-left: 65%;
+		
+
+
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 400px)
+{
+
+	#facebook{
+
+
+	margin-left: 20%;
+
+
+
+	}
+
+
+	#github{
+
+		
+		margin-left: 32%;
+		
+
+
+	}
+
+
+
+	#linkedin{
+
+
+		margin-left: 48%;
+		
+
+
+	}
+
+	#twitter{
+
+
+		margin-left: 62%;
+		
+
+
+	}
+
+}
+
+
+body,html,img,div,a,footer,nav,section,figure,figcaption{
+
+
+	margin: 0;
+	padding: 0;
+
+}
+
+/*Design styles for photos page*/
+
+/*Background image for photos page*/
+
+.background_photos{
+
+	background-image: url(../images/wallhaven-78409.jpg);
+	background-size: cover;
+	background-color: #e4b7b7;
+	background-blend-mode: screen;
+}
+
+
+#site_name_photos{
+
+
+   font-family: 'Dancing Script', cursive;
+   font-size: 45px;
+   background: -webkit-linear-gradient(#be2c2c, #ffc0cb);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+           background-clip: text;
+           text-fill-color: transparent;
+  
+
+}
+
+#site_name_photos:hover{
+
+
+   background: -webkit-linear-gradient(#ffc0cb, #a52a2a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+
+
+
+
+main{
+
+
+	margin: 4rem auto;
+
+
+}
+
+
+section{
+
+	margin: 4% 4% auto;
+	box-shadow: 0 0 10px 2px #696969;
+	background-color: #d6958a;
+	overflow: hidden;
+	background-image: url(../images/wallhaven-78409.jpg);
+	background-size: cover;
+    background-blend-mode: screen;
+
+
+
+}
+
+figure{
+
+	width: calc(100% / 4);
+	float: left;
+	margin: 5% auto;
+	
+	
+}
+
+figure img:hover{
+
+	box-shadow: 0 0 10px 2px #87cefa;
+}
+
+
+
+figure a{
+
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   
+
+}
+
+
+figure img{
+
+	box-shadow: 0 0 10px 2px #808080;
+	overflow: hidden;
+	border-radius: 7px;
+	
+
+}
+
+figcaption{
+
+	text-align: center;
+	
+}
+
+
+footer {
+
+	background-color: #7f9276;
+	opacity: 0.7;
+	text-align: center; 
+	padding: 3em 0;
+	color: #f8f8ff;
+	font-size: 16px;
+
+
+}
+
+/*Media queries for the photos site*/
+
+
+@media only screen and (max-width: 1024px)
+{
+
+	figure{
+
+
+		font-size: 14px;
+
+        width: calc(100% / 3);
+
+	}
+}
+
+
+@media only screen and (max-width: 840px)
+{
+
+	figure{
+
+
+		font-size: 12px;
+
+      
+
+	}
+}
+
+
+
+
+@media only screen and (max-width: 640px)
+{
+
+	figure{
+
+
+	    font-size: 11px;
+
+        width: calc(100% / 2);
+
+	}
+}
+
+
+@media only screen and (max-width: 400px)
+{
+
+	figure{
+
+
+		font-size: 10.5px;
+        margin:auto auto;
+        float: none;
+        display: block;
+        
+
+	}
+}
+
+
+
