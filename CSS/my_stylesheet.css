@@ -433,7 +433,9 @@ figure{
 
 figure img:hover{
 
-	box-shadow: 0 0 10px 2px #87cefa;
+	-webkit-box-shadow: 0 0 12px 3px #39e4e6;
+	        box-shadow: 0 0 12px 3px #39e4e6;
+
 }
 
 
@@ -451,9 +453,11 @@ figure a{
 
 figure img{
 
-	box-shadow: 0 0 10px 2px #808080;
+	-webkit-box-shadow: 0 0 10px 2px #808080;
+	        box-shadow: 0 0 10px 2px #808080;
 	overflow: hidden;
 	border-radius: 7px;
+	-webkit-filter:grayscale(100%);
 	
 
 }
