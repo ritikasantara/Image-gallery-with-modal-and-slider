@@ -9,7 +9,8 @@
 		<link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel = "stylesheet" type = "text/css" href = "CSS/my_stylesheet.css"/>
-		<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+		<!--<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>-->
+		<script type= "text/javascript" src = "jQuery/jQuery.js"></script>
 		<script type= "text/javascript" src = "jQuery/my_jquery.js"></script>
 		<script type= "text/javascript" src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
@@ -72,8 +73,8 @@
 
             <figure>
 
-	               <a data-toggle="modal" href="#photo_modal" alt="img1" title="image-01">
-	               <img src="images/thumbnails/photo1.png"/></a>
+	               <a data-toggle="modal" href="#photo_modal"  title="image-01">
+	               <img src="images/thumbnails/photo1.png" alt="img1" id="img1"/></a>
 	               <figcaption>Picture-01</figcaption>
 
             </figure>
@@ -144,16 +145,16 @@
 
    <!--Modal-->
 
-   <div id= "photo_modal" class= "modal fade" role= "dialog">
+  <!-- <div id= "photo_modal" class= "modal fade" role= "dialog">
 	   <div class="modal-dialog">
 
-		   <!--Modal content-->
+		 
 
 		   <div class="modal-content">
 
 			    <div class="modal-header">
 
-				     <!--The close button-->
+				     
 
 				       <button type="button" class="close" data-dismiss ="modal">&times;</button>
 
@@ -161,7 +162,7 @@
 
 				<div class="modal-body">
 
-
+                    <img src="images/thumbnails/photo1.png"/>
 
 				</div>
 				     
@@ -175,7 +176,31 @@
 	    
 	  </div>  
 
-  </div>      
+  </div> -->
+
+
+  <div id="photo_modal" class="modal fade" role="dialog">
+
+    <div class="modal-dialog">
+
+    <span class="close">&times;</span>
+
+     <div class="modal-content">
+
+           <div class="modal-body">
+
+              <img src='' id="modal_image" height="100%" width="100%">
+
+           </div>  
+
+
+
+    <div id="caption" id="modal_caption"></div>
+
+    </div>
+
+  </div>
+  </div>     
 
 
 	<!--The footer bar-->  
