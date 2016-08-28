@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+$(window).load(function(){
 
 
    //$('figure img').click(function(){
