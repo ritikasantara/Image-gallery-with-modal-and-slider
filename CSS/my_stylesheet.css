@@ -457,6 +457,7 @@ figure a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	display: block;
    
 
 }
@@ -466,8 +467,10 @@ figure img{
 
 	-webkit-box-shadow: 0 0 10px 2px #808080;
 	        box-shadow: 0 0 10px 2px #808080;
-	overflow: hidden; 
+	 
 	border-radius: 7px;
+	display: block;
+	float: left;
  
 	
 
@@ -494,6 +497,12 @@ footer {
 	font-size: 16px;
 
 
+}
+
+.modal-body{
+
+	height:600px;
+	width:600px;
 }
 
 /*Media queries for the photos site*/
