@@ -13,14 +13,14 @@ $(window).load(function(){
 
    //});
 
-   e.preventDefault();
+   
 
    //var modal = $("#photo_modal");
    //var figure_modal_img = $("figure img");
    //var modalImg= $("image_modal");
    //var captionText = $(figure figcaption);
 
-   $('img').on('click',function(){
+   $('figure img').on('click',function(){
 
         var src = $(this).attr('src');
 
