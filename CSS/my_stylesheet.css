@@ -407,24 +407,19 @@ body,html,img,div,a,footer,nav,section,figure,figcaption{
 
 
 
-main{
-
-
-	margin: 4rem auto;
-
-
-}
 
 
 section{
 
-	margin: 3% 4% auto;
+	margin:4%;
 	box-shadow: 0 0 10px 2px #696969;
 	background-color: #d6958a;
 	overflow: hidden;
 	background-image: url(../images/wallhaven-78409.jpg);
 	background-size: cover;
     background-blend-mode: screen;
+    clear:both;
+
 
      
 
@@ -433,44 +428,52 @@ section{
 
 }
 
-figure{
+section figure{
 
 	width: calc(100% / 4);
 	float: left;
-	margin: 5% auto;
-	
+	padding-top:3%;
+	padding-bottom: 3%;
+	padding-left:3%;
+	padding-right:3%;
+	box-sizing: border-box;
+
+
+
 	
 }
 
-figure img:hover{
+section figure img:hover{
 
-	-webkit-box-shadow: 0 0 12px 3px #39e4e6;
-	        box-shadow: 0 0 12px 3px #39e4e6;
+	-webkit-box-shadow: 0 0 9px 2px lightskyblue;
+	        box-shadow: 0 0 9px 2px lightskyblue;
 
 }
 
 
 
-figure a{
+article{
 
-	flex-direction: row;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	display: block;
+
+  margin-right: -3%;
    
 
 }
 
 
-figure img{
+section figure img{
 
 	-webkit-box-shadow: 0 0 10px 2px #808080;
 	        box-shadow: 0 0 10px 2px #808080;
 	 
 	border-radius: 7px;
-	display: block;
-	float: left;
+	max-width:100%;
+	height:auto;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
  
 	
 
@@ -478,7 +481,7 @@ figure img{
 
 }
 
-figcaption{
+figure figcaption{
 
 	text-align: center;
 	
@@ -511,7 +514,7 @@ footer {
 @media only screen and (max-width: 1024px)
 {
 
-	figure{
+	section figure{
 
 
 		font-size: 14px;
@@ -525,7 +528,7 @@ footer {
 @media only screen and (max-width: 840px)
 {
 
-	figure{
+	 section figure{
 
 
 		font-size: 12px;
@@ -541,7 +544,7 @@ footer {
 @media only screen and (max-width: 640px)
 {
 
-	figure{
+	 section figure{
 
 
 	    font-size: 11px;
@@ -555,13 +558,15 @@ footer {
 @media only screen and (max-width: 400px)
 {
 
-	figure{
+	 section figure{
 
 
 		font-size: 10.5px;
-        margin:auto auto;
-        float: none;
-        display: block;
+
+      
+
+   
+       
         
 
 	}
