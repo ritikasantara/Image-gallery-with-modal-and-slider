@@ -406,9 +406,6 @@ body,html,img,div,a,footer,nav,section,figure,figcaption{
 
 
 
-
-
-
 section{
 
 	margin:4%;
@@ -428,7 +425,7 @@ section{
 
 }
 
-section figure{
+figure{
 
 	width: calc(100% / 4);
 	float: left;
@@ -437,13 +434,19 @@ section figure{
 	padding-left:3%;
 	padding-right:3%;
 	box-sizing: border-box;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: block;
+
 
 
 
 	
 }
 
-section figure img:hover{
+figure img:hover{
 
 	-webkit-box-shadow: 0 0 9px 2px lightskyblue;
 	        box-shadow: 0 0 9px 2px lightskyblue;
@@ -455,13 +458,15 @@ section figure img:hover{
 article{
 
 
-  margin-right: -3%;
+    padding-left: 4.2%;
+
+ 
    
 
 }
 
 
-section figure img{
+figure img{
 
 	-webkit-box-shadow: 0 0 10px 2px #808080;
 	        box-shadow: 0 0 10px 2px #808080;
@@ -469,11 +474,7 @@ section figure img{
 	border-radius: 7px;
 	max-width:100%;
 	height:auto;
-	flex-direction: row;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	display: inline-block;
+	
  
 	
 
@@ -498,6 +499,7 @@ footer {
 	padding: 3em 0;
 	color: #f8f8ff;
 	font-size: 16px;
+	clear:both;
 
 
 }
@@ -514,13 +516,20 @@ footer {
 @media only screen and (max-width: 1024px)
 {
 
-	section figure{
+	article{
 
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
 
-		font-size: 14px;
+@media only screen and (max-width: 961px)
+{
 
-        width: calc(100% / 3);
+	article{
 
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
@@ -528,13 +537,10 @@ footer {
 @media only screen and (max-width: 840px)
 {
 
-	 section figure{
+	article{
 
-
-		font-size: 12px;
-
-      
-
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
@@ -543,14 +549,10 @@ footer {
 
 @media only screen and (max-width: 640px)
 {
+article{
 
-	 section figure{
-
-
-	    font-size: 11px;
-
-        width: calc(100% / 2);
-
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
@@ -558,17 +560,10 @@ footer {
 @media only screen and (max-width: 400px)
 {
 
-	 section figure{
+	 article{
 
-
-		font-size: 10.5px;
-
-      
-
-   
-       
-        
-
+		padding-left: 0;
+		padding-right:0;
 	}
 }
 
