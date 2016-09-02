@@ -499,16 +499,20 @@ footer {
 	padding: 3em 0;
 	color: #f8f8ff;
 	font-size: 16px;
-	clear:both;
+
 
 
 }
 
-.modal-body{
 
-	height:600px;
-	width:600px;
+/*Modal centering*/
+
+#photo_modal{
+
+    margin: 0 auto;
+
 }
+
 
 /*Media queries for the photos site*/
 
